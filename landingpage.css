@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   
+}
+
+body{
+    font-family: 'Poppins';
+  
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+   
+}
+
+a{
+    text-decoration: none   ;
+    color: #000000;
+    
+}
+.logo{
+   font-weight: 400;
+   font-size: 28px;
+   line-height: 72px;
+   font-weight: bolder;
+}
+ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+
+}
+
+li{
+    font-weight: bolder;
+}
+
+.loginPart{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-weight: bolder;
+}
+
+.buton{
+    background-color: #E87A14;
+    width: 90px;
+    height: 45px;
+    color: white;
+    padding: 0px 4px;
+    border: white;
+    border-radius: 1rem ;
+
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 3rem;
+    margin-top: 3rem;
+    
+
+}
+
+.left{
+    width: 50%; 
+    align-items: center;
+    justify-items: center;
+}
+
+.toptext{
+    font-size:1.4rem;
+    font-weight:bolder;
+    color: #44C3EB;
+    margin-top: -1rem;
+    margin-bottom: 0.9rem;
+    letter-spacing: -0.3px;
+
+}
+
+.ptext{
+    font-size:2.7rem;
+    font-weight:bolder;
+    
+}
+.right{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+img{
+ width: 400px;
+ height: 500px;
+ padding-right: 4rem;
+
+}
+
+.but2{
+    background-color: #E87A14;
+    width: 120px;
+    height: 55px;
+    color: white;
+    padding: 0px 4px;
+    border-radius: 1rem ;
+    margin-top: 2rem;
+
+}
